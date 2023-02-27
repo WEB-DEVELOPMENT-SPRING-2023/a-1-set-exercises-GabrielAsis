@@ -1,108 +1,105 @@
 body{
-    background-color: #171D1C;
-    color: #EDF6F9;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #171D1C; /* changes back ground to desired color */
+    color: #EDF6F9; /* changes font color to desired color */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* changes font family to desired font*/
+    margin-top: 0; /* it makes everything in the body to have no margin so that it is easier to create margin in the individual sectoins */
     margin-top: 0;
-    margin-top: 0;
-    background-image: url"https://cdn-icons-png.flaticon.com/512/3679/3679566.png";
     
 }
 
 h1.title{
-    font-style: bold;
-    text-align: center;
-    margin: 0 auto;
-    width: 600px;
-    border-bottom: 3px solid #EDF6F9;
-    padding-bottom: 15px;
-    font-size: 50px;
+    font-style: bold; /* changes font style to bold */
+    text-align: center;/* aligns the text to the center */
+    margin: 0 auto; /* allows the text to allign to the center while being able to adjust the width */
+    width: 600px; /* changes the paragraphs and borders width to 600 pixels */
+    border-bottom: 3px solid #EDF6F9; /*creates a border only to the bottom, basically a line */
+    padding-bottom: 15px; /* adjusts how far or near you want the border to be from the text */
+    font-size: 50px; /* changes font size to 50 pixels */
 }
 
 p.desc{
-    text-align: center;
-    color: #aeaeae;
-    font-style: italic;
-    text-align: justify;
-    margin-top: 5px;
-    font-size: 12px;
-    width: 500px;
-    margin: 0 auto;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    text-align: center;/* aligns the text to the center */
+    color: #aeaeae;/* changes font color to desired color */
+    font-style: italic;/* changes font style to italic */
+    text-align: justify;/* justifies the text aligntment */
+    font-size: 12px;/* changes font size to 12 pixels */
+    width: 500px;/* changes the paragraphs width to 500 pixels */
+    margin: 0 auto;/* allows the text to allign to the center while being able to adjust the width */
+    margin-bottom: 15px; /* adds 15 pixels of margin to the bottom */
+    margin-top: 15px;/* adds 15 pixels of margin to the top */
 }
 
 
 .adobo-image{
-    margin-top: 15px;
-    display: block;
-    margin-left:  auto;
+    margin-top: 15px;/* adds 15 pixels of margin to the top */
+    display: block; /* displays the elemnt as a block so that i will be able use certain css styles on the image*/ 
+    margin-left:  auto;/* automatically adjusts the image to the center*/
     margin-right: auto;
-    margin-bottom: 15px;
+    margin-bottom: 15px;/* adds 15 pixels of margin to the bottom */
 }
 
 h2.ingredients{
-    border-top: 3px solid #EDF6F9;
-    padding-top: 15px;
-    width: 600px;
-    text-align: center;
-    margin-bottom: 0px;
-    margin:0 auto;
-    font-size: 30px;
+    border-top: 3px solid #EDF6F9; /*creates a border only to the top, basically a line */
+    padding-top: 15px; /* adjusts how far or near you want the border to be from the text */
+    width: 600px;/* changes the paragraphs and borders width to 600 pixels */
+    text-align: center;/* aligns the text to the center */
+    margin:0 auto; /* allows the text to allign to the center while being able to adjust the width */
+    font-size: 30px;/* changes font size to 30 pixels */
 }
 
 div.container{
-    text-align: center;
+    text-align: center;/* aligns the text to the center */
 }
 
 ul.ingredients{
-    display: inline-block;
-    text-align: left;
-    font-size: 14px;
-    border-style: double;
-    border-width: 3px;
-    border-color: #EDF6F9;
-    border-radius: 15px;
-    padding: 15px 30px;
-    margin-bottom: 20px;
-    width: 250px;
-    line-height: 30px;
+    display: inline-block; /* displays the elemnt as a inline-block so that i will be able to use certain css styles on the list */
+    text-align: left; /* alligns the text in the list to the left */
+    font-size: 14px; /* changes font size to 14 pixels */
+    border-style: double; /* creates a border around the whole list on the style of double */
+    border-width: 3px; /* changes the width of border to 3 px */
+    border-color: #EDF6F9; /* changes border to color to desired color */
+    border-radius: 15px; /* rounds the corners of the border */
+    padding: 15px 30px; /* adjusts how far or near you want the border to be from the text */
+    margin-bottom: 20px; /* adds 20 pixels of margin to the bottom */
+    width: 250px; /* changes the paragraphs width to 250 pixels */
+    line-height: 30px; /* adjusts the text line height to 30 pixels */
 }
 
 h2.instructions{
-    border-top: 3px solid #EDF6F9;
-    padding-top: 15px;
-    width: 600px;
-    text-align: center;
-    margin-bottom: 0px;
-    margin:0 auto;
-    font-size: 30px;
+    border-top: 3px solid #EDF6F9; /*creates a border only to the top, basically a line */
+    padding-top: 15px; /* adjusts how far or near you want the border to be from the text */
+    width: 600px; /* changes the paragraphs and borders width to 250 pixels */
+    text-align: center; /* aligns the text to the center */
+    margin:0 auto; /* allows the text to allign to the center while being able to adjust the width */
+    font-size: 30px;/* changes font size to 30 pixels */
 
 }
 
 div.container-2{
-    text-align: center;
+    text-align: center;/* aligns the text to the center */
 }
 
 ol.instructions{
-    display: inline-block;
-    text-align: left;
-    font-size: 14px;
-    border-style: double;
-    border-width: 3px;
-    border-color: #EDF6F9;
-    border-radius: 15px;
-    padding: 15px 30px;
-    width: 250px;
-    line-height: 30px;
+    display: inline-block;/* displays the elemnt as a inline-block so that i will be able to use certain css styles on the list */
+    text-align: left; /* alligns the text in the list to the left */
+    font-size: 14px;/* changes font size to 14 pixels */
+    border-style: double;/* creates a border around the whole list on the style of double */
+    border-width: 3px;/* changes the width of border to 3 px */
+    border-color: #EDF6F9;/* changes border to color to desired color */
+    border-radius: 15px;/* rounds the corners of the border */
+    padding: 15px 30px;/* adjusts how far or near you want the border to be from the text */
+    width: 250px;/* changes the paragraphs width to 250 pixels */
+    line-height: 30px;/* adjusts the text line height to 30 pixels */
 }
 
 footer{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 12px;
+    margin-top: 20px;/* adds 20 pixels of margin to the top */
+    margin-bottom: 20px;/* adds 20 pixels of margin to the bottom */
+    font-size: 12px;/* changes font size to 12 pixels */
 }
 
+
 a{
-    color:  #EDF6F9;
-    text-align: center;
+    color:  #EDF6F9; /* changes font color to desired color */
+    text-align: center;/* aligns the text to the center */
 }
