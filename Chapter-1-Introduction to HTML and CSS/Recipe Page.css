@@ -1,0 +1,22 @@
+body{
+    background-color: #171D1C;
+    color: #EDF6F9;
+}
+
+h1{
+    font-style: bold;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0px;
+}
+
+p{
+    text-align: center;
+    color: #aeaeae;
+    font-style: italic;
+    margin-top: 5px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 800px;
+    margin: 0 auto;
+}
