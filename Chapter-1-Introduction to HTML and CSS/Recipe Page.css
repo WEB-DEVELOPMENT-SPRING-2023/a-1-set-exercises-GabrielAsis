@@ -32,7 +32,7 @@ p.desc{
 
 .adobo-image{
     margin-top: 15px;/* adds 15 pixels of margin to the top */
-    display: block; /* displays the elemnt as a block so that i will be able use certain css styles on the image*/ 
+    display: block; /* changes the elemnt in to a block*/ 
     margin-left:  auto;/* automatically adjusts the image to the center*/
     margin-right: auto;
     margin-bottom: 15px;/* adds 15 pixels of margin to the bottom */
@@ -47,12 +47,12 @@ h2.ingredients{
     font-size: 30px;/* changes font size to 30 pixels */
 }
 
-div.container{
+div.ingredients-section{
     text-align: center;/* aligns the text to the center */
 }
 
 ul.ingredients{
-    display: inline-block; /* displays the elemnt as a inline-block so that i will be able to use certain css styles on the list */
+    display: inline-block; /* changes th element into an inline-block */
     text-align: left; /* alligns the text in the list to the left */
     font-size: 14px; /* changes font size to 14 pixels */
     border-style: double; /* creates a border around the whole list on the style of double */
@@ -75,12 +75,12 @@ h2.instructions{
 
 }
 
-div.container-2{
+div.instructions-section{
     text-align: center;/* aligns the text to the center */
 }
 
 ol.instructions{
-    display: inline-block;/* displays the elemnt as a inline-block so that i will be able to use certain css styles on the list */
+    display: inline-block;/* changes the elemnt into an inline-block */
     text-align: left; /* alligns the text in the list to the left */
     font-size: 14px;/* changes font size to 14 pixels */
     border-style: double;/* creates a border around the whole list on the style of double */
