@@ -61,9 +61,24 @@ div.title{
     transition: 0.3s;
 }
 
+.amc{
+    color: rgb(31, 175, 175);
+}
+
+.netflix{
+    color: #E50914
+}
+
+.apple{
+    color: silver;
+}
+
+.prime{
+    color:  rgb(113, 113, 224);
+}
+
 .more-link{
     color: white;
-    text-decoration: none;
 }
 
 .more-link:hover{
@@ -96,6 +111,23 @@ div.title{
     text-indent: 35px;
     line-height: 25px;
     text-align: justify;
+    margin-left: 380px;
+}
+
+.p-2{
+    font-size: 15px;
+    margin-top: 15px;
+    width: 792px;
+    line-height: 25px;
+    text-align: justify;
+    margin-left: 380px;
+}
+
+.stream-list{
+    font-size: 15px;
+    margin-top: 15px;
+    width: 650px;
+    line-height: 30px;
     margin-left: 380px;
 }
 
