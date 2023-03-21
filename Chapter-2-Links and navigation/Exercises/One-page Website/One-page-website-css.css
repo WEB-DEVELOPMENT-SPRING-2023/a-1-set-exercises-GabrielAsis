@@ -26,39 +26,47 @@ div.title{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav{
-    margin-top: 50px;
+nav{
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.nav-list{
-    display: inline;
+.nav{
+    margin-top: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .nav-button{
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
     font-size: 25px;
-    border: solid white;
+    border: solid white 1px;
     background-color: #1F6032;
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 5px;
     padding-top: 5px;
-    box-shadow: 5px 6px black;
-    
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+    float: left;
+}
+
+.nav-button:not(:last-child) {
+    border-right: none;
+  }
+
+.nav-button:hover{
+    background-color: white;
+    border-color: #1F6032;
+    color: #1F6032 ;
 }
 
 .nav-link{
     color: white;
     text-decoration: none;
-}
-
-.nav-link:hover{
-    opacity: 0.6;
-    transition: 0.3s;
 }
 
 .amc{
@@ -87,8 +95,9 @@ div.title{
 }
 
 .content{
-    margin-top: 50px;
+    margin-top: 25px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:75px
 }
 
 .h-1{
@@ -102,6 +111,7 @@ div.title{
     background-color: #1F6032;
     margin-bottom: 0;
     margin-left: 380px;
+    box-shadow: black 5px 6px 5px;
 }
 
 .p-1{
@@ -190,7 +200,7 @@ footer{
     margin-bottom: 15px;
 }
 
-button{
+.imdb-web{
     margin-left: 10px;
     margin-right: 10px;
     font-size: 25px;
@@ -205,7 +215,7 @@ button{
     transition: 0.5s;
 }
 
-button:hover{
+.imdb-web:hover{
     background-color: white;
     border-color: #1F6032;
     color: #1F6032 ;
