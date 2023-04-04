@@ -1,15 +1,21 @@
-
-  .button-container {
+  body{
+    background-image: url();
+  }
+  
+  .button-container{
     display: inline;
   }
   
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');  
   .sound-button {
-    padding: 90px 180px;
+    height:225px;
+    width:450px;
     font-size: 24px;
     border: none;
     background-color: #008CBA;
-    color: #fff;  
-    border-radius: 4px;
+    color: #fff; 
+    font-family: 'Archivo Black', sans-serif;
+    border-radius: 10px;
     cursor: pointer;
     margin: 20px 20px 20px 20px;
     transition: 0.3s;
