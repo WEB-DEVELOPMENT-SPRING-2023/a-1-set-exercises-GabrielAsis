@@ -1,22 +1,47 @@
-#soundboard {
+
+  .button-container {
+    display: inline;
+  }
+  
+  .sound-button {
+    padding: 90px 180px;
+    font-size: 24px;
+    border: none;
+    background-color: #008CBA;
+    color: #fff;  
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px 20px 20px 20px;
+    transition: 0.3s;
+    }
+
+  .sound-button:hover{
+    box-shadow: black 1px 1px 20px;
+  }
+
+  .sound-button:active{
+    background-color: #136580;
+    color: #acabab;  
+  }
+
+  .top{
+    display: block;
+  }
+  
+  .mid{
+    display: block;
+
+  }
+
+  .bot{
+    display: block;
+
+  }
+
+  .layer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 100vh;
   }
-  
-  .button-container {
-    margin: 10px;
-  }
-  
-  .sound-button {
-    padding: 10px 20px;
-    font-size: 24px;
-    border: none;
-    background-color: #008CBA;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
