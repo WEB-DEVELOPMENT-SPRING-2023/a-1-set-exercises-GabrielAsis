@@ -8,5 +8,8 @@ function calc(){
     let result=
     liters*cost;
 
-    document.getElementById('result').innerHTML="Your total cost is:" + result;
+    document.getElementById('total').innerHTML="Your total cost is: ";
+   
+    document.getElementById('result').innerHTML= + result;
+
 }
