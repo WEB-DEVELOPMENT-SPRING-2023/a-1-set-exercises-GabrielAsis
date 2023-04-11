@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap'); /*this imports a font from google*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins&display=swap'); /*this imports a font from google*/
+
+body{/*changes the styling for everything in the body*/
+    position: absolute;
+    top:50%; 
+    left:50%;
+    transform: translate(-50%, -50%);
+    /*the lines of code above centers the elements on the page horizontally and vertically*/
+
+    margin: 0px; /*makes all elements to have 0px to remove the default margins*/
+    background-color: #424B54;/*changes background color*/
+    color:#EDDDD4;/*changes text color*/
+}
+
+
+.header{/*changes the styling for everything in the header class*/
+    text-align: center;/*aligns text to the center*/
+    margin: 0px;/*sets margin to 0px*/
+    font-size: 70px;/*sets font size*/
+    letter-spacing: 5px;/*sets spacing between letters*/
+    font-family: 'Rubik Mono One', sans-serif;/*sets the font to the google fonts that were imported*/    
+    font-weight: bold;/*makes the font to bold*/
+}
+
+.container{/*changes the styling for everything in the container div*/
+    display: flex;/*displays the content as flex */
+
+    justify-content: center;
+    align-items: center;
+    /*the 2 lines of code above centers the elements*/
+}
+
+.cost-div,.liters-div,.btn-div,.result{/*changes the styling for multiple divs*/
+    margin: 20px;/*sets margin*/
+    width:600px;/*sets width of the divs*/
+}
+
+.input{/*changes the styling for everything in the input class*/
+    display: block;/*displays the content as a block*/
+    font-size: 20px;/*sets font size*/
+    font-family: 'Space Mono', monospace;/*sets the font to the google fonts that were imported*/    
+    width: 565px;/*sets width of the element*/
+    background-color: #EDDDD4;/*changes background color*/
+    color: #424B54;/*changes text color*/
+    border-radius: 10px;/*changes how round the box border will be*/
+    padding: 12px 20px;/*creates spacing between the text and border*/
+    transition: 0.4s ease;/*creates a transition for when the styles chaged for a smoother look*/
+    border: 3.2px solid #887468;/*creates a border*/
+    outline: none;/*removes the outline when the input is selected/focused*/
+}
+
+input[type=number]:focus{/*changes the styling for when the input box is selected/focused*/
+    border: 3.2px solid rgb(0, 0, 0);/*changes the border to the desired color when the input is selected/focused*/
+}
+
+
+label{/*changes the styling for the labels*/
+    font-size: 28px;/*sets font size*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/*changes font*/
+}
+
+.calc-btn{/*changes the styling for everything in the calc-button class*/
+    display: block;/*displays the content as a block*/
+    font-size: 20px;/*sets font size*/
+    font-family: 'Space Mono', monospace;/*sets the font to the google fonts that were imported*/  
+    background-color: #EDDDD4;/*changes background color*/
+    color: #424B54;/*changes text color*/
+    border-radius: 15px;/*changes how round the box border will be*/
+    border: 3.2px solid #887468;/*creates a border*/  
+    padding: 10px 20px;/*creates spacing between the text and border*/
+    transition: 0.2s;/*creates a transition for when the styles chaged for a smoother look*/
+    cursor: pointer;/*changes the cursor into a pointer when it is hovering on the button*/
+}
+
+.calc-btn:hover{/*changes the styling for when the mouse is on the button*/
+    box-shadow: 0px 0px 25px black;/*creates a shadow when the button is hovered/
+}
+
+.calc-btn:active{/*changes the styling for when the button is clicked/active*/
+    background-color: #8d8782;/*changes background color when button is clicked*/
+    color: #202225;/*changes text color when button is clicked*/
+    border: 3.2px solid #52463f;/*changes border color when button is clicked*/    
+
+}
+
+#result{/*changes the styling for everything in the result id*/
+    line-height: 0px;/*sets line height*/
+    text-decoration: underline;/*creates an underline*/
+}
+
+.result{/*changes the styling for everything in the result class*/
+    display: block;/*displays the content as a block*/
+    text-align: center;/*aligns text to the center*/
+    font-size: 30px;/*sets font size*/
+    font-family: 'Space Mono', monospace;/*sets the font to the google fonts that were imported*/  
+    font-weight: bold;/*makes the font to bold*/
+}
+
