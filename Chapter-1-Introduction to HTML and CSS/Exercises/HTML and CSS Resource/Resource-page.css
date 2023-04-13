@@ -1,0 +1,72 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.content{
+    width: 675px;
+    margin: 0px;
+}
+
+.page-title{
+    text-align: center;
+    font-family:monospace;
+    font-size: 30px;
+}
+
+.begi-guide{
+    display: block;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 40px;    
+}   
+
+.h-1{
+    font-family:monospace;
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.description{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    text-justify: auto;
+}
+
+.h-2{
+    font-family: 'Poppins', sans-serif;
+}
+
+.h-3{
+    font-family: 'Poppins', sans-serif; 
+}
+
+pre, code{
+    font-size: 13.5px;
+    background-color: #0D1821;
+    color: rgb(174, 174, 174);
+    padding: 12px;
+}
+
+.tag-h1{
+    padding: 0;
+}
+
+hr{
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+    margin: 35px 0px 35px 0px;
+}
+
+.output{
+    border: 1px solid #0D1821;
+    padding: 10px 12px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
