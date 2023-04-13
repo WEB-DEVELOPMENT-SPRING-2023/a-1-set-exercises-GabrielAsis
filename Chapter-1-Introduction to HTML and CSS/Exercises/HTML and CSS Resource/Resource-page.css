@@ -12,21 +12,23 @@ body{
 }
 
 .page-title{
+    margin-top: 10px;
     text-align: center;
     font-family:monospace;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .begi-guide{
     display: block;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 100;
-    font-size: 40px;    
+    font-size: 50px;    
+    margin-bottom: 5px;
 }   
 
 .h-1{
     font-family:monospace;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 5px;
     font-weight: bold;
 }
@@ -35,6 +37,7 @@ body{
     font-family: 'Poppins', sans-serif;
     text-align: justify;
     text-justify: auto;
+    margin-bottom: 25px
 }
 
 .h-2{
@@ -43,6 +46,8 @@ body{
 
 .h-3{
     font-family: 'Poppins', sans-serif; 
+    font-size: 25px;
+
 }
 
 pre, code{
@@ -67,6 +72,20 @@ hr{
     border: 1px solid #0D1821;
     padding: 10px 12px;
 }
+
+
+.p-code-output{
+    font-family:monospace;
+    font-size:20px;
+    margin-bottom:3px;
+}
+
+.footer{
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    margin-bottom: 35px;
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 

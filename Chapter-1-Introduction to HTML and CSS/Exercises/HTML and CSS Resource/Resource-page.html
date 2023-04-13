@@ -73,17 +73,16 @@
 
         <h4 class="h-3">Heading 1 to Heading 6 Tags</h4>
         <pre>
-&lt;h1&gt;Heading 1&lt;/h1&gt;
-
-&lt;h2&gt;Heading 2&lt;/h2&gt;
-
-&lt;h3&gt;Heading 3&lt;/h3&gt;</pre>
+&lt;h1&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;/h3&gt;
+...</pre>
 
         <p class="description">These tags define different levels of headings, with <code class="tag-h1">&lt;h1&gt;</code> being the largest and most important heading.</p>
         
-        <p>Example:</p>
+        <p class="description">Example:</p>
 
-        <p>Code:</p>
+        <p class="p-code-output">Code:</p>
         <pre>
 &lt;h1&gt;Heading 1&lt;/h1&gt;
 
@@ -97,7 +96,7 @@
 
 &lt;h6&gt;Heading 6&lt;/h6&gt;</pre>
 
-        <p>Output:</p>
+        <p class="p-code-output">Output:</p>
         <div class="output">
         <h1>Heading 1</h1>
 
@@ -120,13 +119,13 @@
 
         <p class="description">This tag defines a paragraph of text.</p>
         
-        <p>Example:</p>
+        <p class="description">Example:</p>
 
-        <p>Code:</p>
+        <p class="p-code-output">Code:</p>
         
         <pre>&lt;p&gt; My name is Walter Hartwell White&lt;/p&gt;</pre>
 
-        <p>Output:</p>
+        <p class="p-code-output">Output:</p>
         <div class="output"><p>My name is Walter Hartwell White</p></div>
 
         <hr>
@@ -138,12 +137,12 @@
 
         <p class="description">This tag creates a hyperlink to another web page or a specific section of a web page.</p>
 
-        <p>Example:</p>
+        <p class="description">Example:</p>
 
-        <p>Code:</p>
+        <p class="p-code-output">Code:</p>
         <pre>&lt;a href="https://google.com/"&gt;Google Link&lt;/a&gt;</pre>
 
-        <p>Output:</p>
+        <p class="p-code-output">Output:</p>
         <div class="output"><a href="https://google.com/">Google Link</a></div>
 
         <hr>
@@ -155,14 +154,14 @@
 
         <p class="description">This tag inserts an image into the web page. You can use a file from your computer or copy an image link from the internet.</p>
 
-        <p>Example:</p>
+        <p class="description">Example:</p>
 
-        <p>Code:</p>
+        <p class="p-code-output">Code:</p>
 
-        <pre>&lt;img src="https://cdn.shopify.com/s/files/1/0583/1006/6338/files/og-id.jpg" width="400px"&gt;</pre>
+        <pre>&lt;img src="https://cdn.shopify.com/s/files/1/0583/1006/6338/files/og-id.jpg" width="400"&gt;</pre>
 
-        <p>Output:</p>
-        <div class="output"><img src="https://cdn.shopify.com/s/files/1/0583/1006/6338/files/og-id.jpg" width="400px"></div>
+        <p class="p-code-output">Output:</p>
+        <div class="output"><img src="https://cdn.shopify.com/s/files/1/0583/1006/6338/files/og-id.jpg" width="400"></div>
 
         <hr>
         
@@ -174,9 +173,9 @@
 
         <p class="description">These tags are used to create an ordered list of items meaning the items are listed in a specific order.</p>
 
-        <p>Example:</p>
+        <p class="description">Example:</p>
         
-        <p>Code:</p>
+        <p class="p-code-output">Code:</p>
         <pre>
 &lt;ol&gt;
   &lt;li&gt;Kendrick Lamar&lt;/li&gt;
@@ -184,7 +183,7 @@
   &lt;li&gt;Kanye West&lt;/li&gt;
 &lt;/ol&gt;</pre>
 
-        <p>Output:</p>
+        <p class="p-code-output">Output:</p>
         <div class="output">
                 <ol>
                 <li>Kendrick Lamar</li>
@@ -202,9 +201,9 @@
 
         <p class="description">These tags are used to create an unordered list of items meaning the items are listed in no particular order.</p>
 
-        <p>Example:</p>
+        <p class="description">Example:</p>
         
-        <p>Code:</p>
+        <p class="p-code-output">Code:</p>
         <pre>
 &lt;ul&gt;
   &lt;li&gt;Apple&lt;/li&gt;
@@ -213,7 +212,7 @@
   &lt;li&gt;Rice&lt;/li&gt;
 &lt;/ul&gt;</pre>
 
-        <p>Output:</p>
+        <p class="p-code-output">Output:</p>
         <div class="output">
                 <ul>
                   <li>Apple</li>
@@ -227,25 +226,338 @@
         <p class="description">CSS is a language used for describing the style and formatting of web pages written in markup languages like HTML. It allows web developers to define the look and layout of web page content, such as font styles, colors, and positioning, separately from the content itself. This separation of content and presentation helps developers create consistent and visually appealing web pages across a website.</p>
 
         <h3 class="h-2">Basic CSS Properties:</h3>
-        <p class="description">Sets the text color of an element.</p>
-
+        
         <h4 class="h-3">Color</h4>
 
+        <p class="description">Sets the text color of an element.</p>
+
+        <p class="description">Example:</p>
+        
+        <p class="p-code-output">Code:</p>
+        <pre>.red{
+color: red;
+}
+
+.blue{
+color: blue;
+}
+
+.green{
+color: green;
+}
+        </pre>
+
+        <p class="p-code-output">Output:</p>
+        <div class="output">
+                <style>
+                        .red{
+                                color: red;
+                        }
+                        .blue{
+                        color: blue;
+                        }
+
+                        .green{
+                        color: green;
+                        }
+                </style>
+                <p class="red">This text is red</p>
+                <p class="blue">This text is red</p>
+                <p class="green">This text is red</p>
+        </div>
+
+        <hr>
+
         <h4 class="h-3">Background-color</h4>
+        <p class="description">Sets the background color of an element.</p>
+
+        <p class="description">Example:</p>
+
+        <p class="p-code-output">Code:</p>
+
+        <pre>.bg1{
+background-color: pink;
+}
+
+.bg2{
+background-color: lightblue;
+}
+
+.bg3{
+background-color: lightgreen;
+}
+        </pre>
+
+        <p class="p-code-output">Output:</p>
+        <div class="output">
+                <style>
+                        .bg1{
+                        background-color: pink;
+                        }
+
+                        .bg2{
+                        background-color: lightblue;
+                        }
+
+                        .bg3{
+                        background-color: lightgreen;
+                        }
+                </style>
+                <p class="bg1">The background is pink</p>
+                <p class="bg2">The background is light-blue</p>
+                <p class="bg3">The background is light-green</p>
+
+        </div>
+
+        <hr>
 
         <h4 class="h-3">Font-size</h4>
+        <p class="description">Sets the size of the text inside an element.</p>
+
+        <p class="description">Example:</p>
+
+        <p class="p-code-output">Code:</p>
+
+        <pre>.p1{
+font-size: 15px        
+        }
+
+.p2{
+font-size: 50px        
+}
+
+.p3{
+font-size: 25px        
+}</pre>
+
+        <p class="p-code-output">Output:</p>
+        <div class="output">
+                <style>
+                        .p1{
+                        font-size: 15px        
+                        }
+
+                        .p2{
+                        font-size: 50px        
+                        }
+
+                        .p3{
+                        font-size: 30px        
+                        }
+                </style>
+                <p class="p1">Font size = 15px</p>
+                <p class="p2">Font size = 50px</p>
+                <p class="p3">Font size = 30px</p>
+        </div>
+
+        <hr>
 
         <h4 class="h-3">Font-family</h4>
+        <p class="description">Sets the font family used for the text inside an element.</p>
+
+        <p class="description">Example:</p>
+
+        <p class="p-code-output">Code:</p>
+
+        <pre>.p-arial{
+font-family: Arial, Helvetica, sans-serif;
+}
+                
+.p-impact{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;        
+}
+                
+.p-cambria{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif       
+}</pre>
+
+        <p class="p-code-output">Output:</p>
+        <div class="output">
+                <style>
+                        .p-arial{
+                        font-family: Arial, Helvetica, sans-serif;
+                        }
+
+                        .p-impact{
+                        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;        
+                        }
+
+                        .p-cambria{
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif       
+                        }
+                </style>
+                <p class="p-arial">Font-family: Arial</p>
+                <p class="p-impact">Font-family: Impact</p>
+                <p class="p-cambria">Font-family: Cambria</p>
+        </div>
+
+        <hr>
 
         <h4 class="h-3">Padding</h4>
+        <p class="description">Sets the space between an element's content and its border.</p>
+
+        <p class="description">Example:</p>
+
+        <p class="p-code-output">Code:</p>
+
+        <pre>&lt;img src="https://cdn.shopify.com/s/files/1/0583/1006/6338/files/og-id.jpg" width="400px"&gt;</pre>
+
+        <p class="p-code-output">Output:</p>
+        <div class="output">
+                <style>
+                        .box1{
+                        background-color: pink;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        }
+
+                        .box2{
+                        background-color: lightblue;
+                        padding-left: 50px;
+                        }
+
+                        .box3{
+                        background-color: lightgreen;
+                        padding: 10px 12px;
+                        }
+                </style>
+                <p class="box1">Box 1</p>
+                <p class="box2">Box 2</p>
+                <p class="box3">Box 3</p>
+        </div>
+
+        <hr>
 
         <h4 class="h-3">Margin</h4>
+        <p class="description">Sets the space between an element's border and surrounding elements.</p>
+
+        <p class="description">Example:</p>
+
+        <p class="p-code-output">Code:</p>
+
+        <pre>.marg1{
+margin-bottom: 50px;
+}
+
+.marg2{
+margin-top: 30px;
+margin-left: 60px;
+}
+
+.marg3{
+margin-top:100px;
+margin-left:500px; 
+}</pre>
+
+        <p class="p-code-output">Output:</p>
+        <div class="output">
+                <style>
+                        .marg1{
+                        margin-bottom: 50px;
+                        }
+
+                        .marg2{
+                        margin-top: 30px;
+                        margin-left: 60px;
+                        }
+
+                        .marg3{
+                        margin-top:100px;
+                        margin-left:500px;    
+                        }
+                </style>
+                <p class="marg1">First Sentence.</p>
+                <p class="marg2">Second Sentence.</p>
+                <p class="marg3">Third Sentence.</p>
+        </div>
+
+        <hr>
 
         <h4 class="h-3">Border</h4>
+        <p class="description">Sets the border around an element.</p>
+
+        <p class="description">Example:</p>
+
+        <p class="p-code-output">Code:</p>
+
+        <pre>.border1{
+border: 3px solid red;
+padding: 10px;
+}
+
+.border2{
+border: 10px solid blue;
+padding: 25px;  
+}
+
+.border3{
+border: 1px solid green;
+padding: 5px;
+}</pre>
+
+        <p class="p-code-output">Output:</p>
+        <div class="output">
+                <style>
+                        .border1{
+                        border: 3px solid red;
+                        padding: 10px;
+                        }
+
+                        .border2{
+                        border: 10px solid blue;
+                        padding: 25px;  
+                        }
+
+                        .border3{
+                        border: 1px solid green;
+                        padding: 5px;
+                        }
+                </style>
+                <p class="border1">Border 1</p>
+                <p class="border2">Border 2</p>
+                <p class="border3">Border 3</p>
+        </div>
+
+        <hr>
 
         <h4 class="h-3">Text-align</h4>
+        <p class="description">Sets the alignment of the text inside an element.</p>
 
+        <p class="description">Example:</p>
+
+        <p class="p-code-output">Code:</p>
+
+        <pre>.center{
+text-align: center;
+}
+
+.right{
+text-align: right;
+}</pre>
+
+        <p class="p-code-output">Output:</p>
+        <div class="output">
+                <style>
+                        .center{
+                                text-align: center;
+                        }
+
+                        .right{
+                                text-align: right;
+                        }                       
+                </style>
+                <p class="center">Center</p>
+                <p class="right">Right</p>
+                <p class="def">Default</p>
+        </div>
+
+        <hr>
+        <div class="footer">
+                <p>Created by Gabries Asis</p>
+        </div>
     </div>
+
+    
 
 </body>
 </html>
