@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');  
+
+body{
+    background-color:#F7B05B;
+    margin: 0;
+}
+
+.soundboard{
+    position: absolute;
+    right: 200px;
+}
+
+.button-container{
+    display: inline;
+}
+  
+.sound-button {
+    height:110px;
+    width:200px;
+    font-size: 10px;
+    border: none;
+    background-color: #1e1d1d;
+    border-radius: 10px;
+    box-shadow: 0 10px #ff4f1e;
+    cursor: pointer;
+    margin: 20px;
+    color: #fff; 
+    font-family: 'Archivo Black', sans-serif;
+    transition: 0.3s ease;
+}
+
+.sound-button:hover{
+    background-color: #cbcbcb;
+    color: #1e1d1d;
+}
+
+.sound-button:active{
+    transform: translateY(4px);
+    box-shadow: 0 6px #f1977e;
+}
+
+.top{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.bot{
+    display: block;
+
+}
+
+.page-title{
+    text-align: center;
+    color: #1e1d1d;
+    font-family: 'Archivo Black', sans-serif;
+    margin: 1px;
+    font-size: 80px;
+}
+
+label, textarea, .convert{
+    display: block;
+}
+
+.tts-title{
+    margin:8px;
+    text-align: center;
+}
+
+.txt-speech{
+    display: inline-block;
+    position: absolute  ;
+    left: 200px;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    background-color: #1e1d1d;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px #ff4f1e;
+}
