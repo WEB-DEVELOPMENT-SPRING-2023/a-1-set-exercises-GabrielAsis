@@ -1,22 +1,21 @@
-  body{
-    background-image: radial-gradient(#DFD6A7,#F7B05B);
-    overflow: hidden;
-  }
-  
-  .soundboard{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 86vh;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');  
 
-  .button-container{
-    display: inline;
-  }
+body{
+  background-image: radial-gradient(#DFD6A7,#F7B05B);
+}
   
-  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');  
-  .sound-button {
+.soundboard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container{
+  display: inline;
+}
+  
+.sound-button {
     height:150px;
     width:300px;
     font-size: 24px;
@@ -28,35 +27,81 @@
     margin: 20px 20px 20px 20px;
     color: #fff; 
     font-family: 'Archivo Black', sans-serif;
-    transition: 0.3s ease;
-    }
+    transition: 0.3s;
+}
 
-  .sound-button:hover{
-    background-color: #cbcbcb;
-    color: #1e1d1d;
-    }
+.sound-button:hover{
+  background-color: #cbcbcb;
+  color: #1e1d1d;
+}
 
-  .sound-button:active{
-    transform: translateY(4px);
-    box-shadow: 0 6px #f1977e;
-    
-  }
+.sound-button:active{
+  transform: translateY(4px);
+  box-shadow: 0 6px #f1977e;
+}
 
-  .top{
-    display: block;
-  }
+.top{
+  display: block;
+}
 
-  .bot{
-    display: block;
-    margin-bottom: 9px;
-  }
+.bot{
+  display: block;
+}
 
-  .h-1{
-    text-align: center;
-    color: #1e1d1d;
-    font-family: 'Archivo Black', sans-serif;
-    margin: 1px;
-    font-size: 80px;
-  }
+.h-1{
+  text-align: center;
+  color: #1e1d1d;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 80px;
+}
 
+.right, .left{
+  position: absolute;
+  text-align: center;
+  padding: 20px;
+  border: none;
+  background-color: #1e1d1d;
+  border-radius: 50px;
+  box-shadow: 0 10px #ff4f1e;
+  cursor: pointer;
+  margin: 20px 20px 20px 20px;
+  color: #fff; 
+  font-family: 'Archivo Black', sans-serif;
+  transition: 0.3s;
+}
+
+.right{
+  right: 50px;
+  bottom: 50px;
+}
+
+.left{
+  left: 50px;
+  bottom: 50px;
+}
+
+.right:hover{
+  background-color: #cbcbcb;
+  color: #1e1d1d;
+}
+
+.right:active{
+  transform: translateY(4px);
+  box-shadow: 0 6px #f1977e;
+}
+
+.left:hover{
+  background-color: #cbcbcb;
+  color: #1e1d1d;
+}
+
+.left:active{
+  transform: translateY(4px);
+  box-shadow: 0 6px #f1977e;
+}
+
+a{
+  text-decoration: none;
+  transition: 0.3s;
+}
     
