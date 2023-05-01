@@ -96,6 +96,7 @@ footer{
     margin-top: 20px;/* adds 20 pixels of margin to the top */
     margin-bottom: 20px;/* adds 20 pixels of margin to the bottom */
     font-size: 12px;/* changes font size to 12 pixels */
+    text-align: center;
 }
 
 
