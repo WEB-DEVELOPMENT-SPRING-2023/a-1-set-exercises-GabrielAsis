@@ -1,0 +1,222 @@
+body{
+    background-color: #2b2b2b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.title{
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    border-bottom: solid #363636;
+    padding-bottom: 20px;
+}
+
+.br{
+    border: solid white;
+    padding: 4px;
+    background-color: #1F6032;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ba{
+    border: solid white;
+    padding: 4px;
+    margin-left: 25px;
+    background-color: #1F6032;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    text-align: center;
+}
+
+.nav{
+    margin-top: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-button{
+    font-size: 25px;
+    border: solid white 1px;
+    background-color: #1F6032;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+    float: left;
+}
+
+.nav-button:not(:last-child) {
+    border-right: none;
+  }
+
+.nav-button:hover{
+    background-color: white;
+    border-color: #1F6032;
+    color: #1F6032 ;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.amc{
+    color: rgb(31, 175, 175);
+}
+
+.netflix{
+    color: #E50914
+}
+
+.apple{
+    color: silver;
+}
+
+.prime{
+    color:  rgb(113, 113, 224);
+}
+
+.more-link{
+    color: white;
+}
+
+.more-link:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.content{
+    margin-top: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.h-1{
+    font-size: 40px;
+    margin-top: 50px;
+    display: inline-block;
+    border: solid white;
+    padding: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #1F6032;
+    margin-bottom: 0;
+    box-shadow: black 5px 6px 5px;
+}
+
+.p-1{
+    font-size: 15px;
+    margin-top: 15px;
+    width: 792px;
+    text-indent: 35px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.p-2{
+    font-size: 15px;
+    margin-top: 15px;
+    width: 792px;
+    line-height: 25px;
+    text-align: justify;
+
+}
+
+.stream-list{
+    font-size: 15px;
+    margin-top: 15px;
+    width: 650px;
+    line-height: 30px;
+
+}
+
+.char-cast-list{
+    font-size: 15px;
+    margin-top: 15px;
+    width: 650px;
+    line-height: 30px;
+
+}
+
+.rating-1{
+    color: #1F6032;
+    margin: 0;
+   
+}
+
+.rating{
+    margin-bottom: 1px;
+
+}
+
+.review-title{
+    margin-top: 5px;
+    margin-bottom: 1px;
+
+}
+
+.user-date{
+    margin-top: 1px;
+    margin-bottom: 0;
+    
+}
+
+.user{
+    color:#1F6032;
+
+}
+
+.p-review{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    width: 792px;
+    text-indent: 35px;
+
+}
+
+footer{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    border-top: solid #363636;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.credits{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.imdb-web{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    border: solid white;
+    background-color: #1F6032;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    box-shadow: 5px 6px black;
+    color: white;
+    transition: 0.5s;
+}
+
+.imdb-web:hover{
+    background-color: white;
+    border-color: #1F6032;
+    color: #1F6032 ;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Soundboard</title>
+  <link rel="stylesheet" type="text/css" href="Soundboard-TTS.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1 class="page-title">Soundboard</h1>
+
+  <div class="layer">
+    <div class="soundboard"> 
+      <div class="top">
+        <div class="button-container">
+          <button id="ah-ha" class="sound-button" onClick="play(this.id)">Ah-Ha</button>
+        </div>
+    
+        <div class="button-container">
+          <button id="back-of-the-net" class="sound-button" onClick="play(this.id)" >Back of the net</button>
+        </div>
+      
+        <div class="button-container">
+          <button id="bangoutoforder" class="sound-button" onClick="play(this.id)">Bang out of order</button>
+        </div>
+      </div>
+
+      <div class="bot">
+              
+        <div class="button-container">
+          <button id="dan" class="sound-button" onClick="play(this.id)">Dan</button>
+        </div>
+
+        <div class="button-container">
+          <button id="emailoftheevening" class="sound-button" onClick="play(this.id)">Email of the evening</button>
+        </div>
+      </div>
+
+      <div class="nav">
+        <a href="Soundboard-TTS-2.html" class="right">Next &raquo;</a>
+      </div>
+      
+    </div>
+    
+    <div class="txt-speech">
+      <h1 class="tts-title">Text to Speech</h1>
+      <form>
+        <label for="text-input">Enter Text:</label>
+        <textarea id="text-input" name="text-input">Hello World!</textarea>
+        <button id="convert">Convert</button>
+      </form>
+    </div>
+  
+  </div>
+
+  <script src="Soundboard-TTS.js"></script>
+</body>
+</html>

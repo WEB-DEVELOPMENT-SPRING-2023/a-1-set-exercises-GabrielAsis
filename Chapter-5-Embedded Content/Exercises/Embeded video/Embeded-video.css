@@ -1,0 +1,15 @@
+body{
+    background-image: url('Images/city-bg.jpg');
+}
+
+video{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);  
+    border-radius: 50px;
+    border: solid rgb(74, 87, 113) 5px;
+    box-shadow: rgb(168, 63, 63) 10px 10px;
+}
